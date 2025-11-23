@@ -2,7 +2,7 @@
 Ham Radio AI Bot
 
 **Overview**  
-Welcome to HAMBOT, an AI-powered bot that blends the traditional world of amateur radio with cutting-edge artificial intelligence! At its core, HAMBOT is designed to receive, and in the future transmit, messages using CW Morse Code. This project is the first step in merging radio communications with AI, and it's just the beginning of what's possible!
+Welcome to HAMBOT, an AI-powered bot that blends the traditional world of amateur radio with cutting-edge artificial intelligence! At its core, HAMBOT is designed to receive, and transmit, messages using CW Morse Code. This project is the first step in merging radio communications with AI, and it's just the beginning of what's possible!
 
 **Key Features**  
 *Morse Code Reception: HAMBOT receives Morse code signals using the PZSDR board and processes them using GnuRadio on a DragonOS Linux distribution.  
