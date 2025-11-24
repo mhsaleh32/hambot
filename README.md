@@ -7,14 +7,14 @@ Welcome to HAMBOT, an AI-powered bot that blends the traditional world of amateu
 **Key Features**  
 *Morse Code Reception: HAMBOT receives Morse code signals using the PZSDR board and processes them using GnuRadio on a DragonOS Linux distribution.  
 *Audio Feature Extraction: Python and Librosa are used to extract features from incoming Morse code audio signals.  
-*Morse Code Decoding: TensorFlow helps classify and decode the Morse code messages into readable text.  
+*Morse Code Decoding: Scikit learn helps classify and decode the Morse code messages into readable text using Random Forest method.  
 *Natural Language Processing: Powered by Ollama’s LLM, HAMBOT can process and respond with conversational AI capabilities.  
 *Future Voice Interaction: Currently, HAMBOT is being enhanced to understand and speak via voice messages, leveraging Automatic Speech Recognition (ASR) tools.  
 
 **How It Works**  
 Hardware Setup: The PZSDR board is used for RF reception, and GnuRadio is installed on the DragonOS Linux distribution to handle the communication interface.  
 Signal Processing: Librosa processes the incoming audio signals from Morse code, extracting relevant features.  
-Morse Code Decoding: TensorFlow is used to classify and decode the audio features into Morse code text.  
+Morse Code Decoding: Scikit learn helps classify and decode the audio features into Morse code text using Random Forest method.  
 AI Brain: The decoded messages are passed to Ollama's LLM, which is the conversational AI that powers HAMBOT’s responses.  
 Voice Messages (In Development): Currently working on adding speech-to-text and text-to-speech capabilities to allow voice-based communication.  
 
